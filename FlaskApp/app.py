@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    name = "CS190"
+    name = "Data"
     return render_template('hello.html', name=name)
     
 
