@@ -6,8 +6,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    name = "John Stuart from the Daily Show"
-    # name = "CS190"
+    #name = "John Stuart"
+    name = "CS190"
     return render_template('hello.html', name=name)
     
 
